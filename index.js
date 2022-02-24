@@ -2,7 +2,7 @@ const saturdayFun = (input = "roller-skate") => {
   return `This Saturday, I want to ${input}!`;
 };
 
-const mondayWork = function (input = "go to the office") {
+const mondayWork = (input = "go to the office") => {
   return `This Monday, I will ${input}.`;
 };
 
@@ -44,7 +44,7 @@ const arr = (function (thingToAdd) {
       //-----------------------------PART B
     },
   ];
-})(2); //<---this 2 is the thingToAdd
+})(2); //<---this 2 is the thingToAdd(this () is the invocation)
 
 console.log(arr[0](), "Array Part A");
 console.log(arr[1](), "Array Part B");
