@@ -2,7 +2,7 @@ const saturdayFun = (input = "roller-skate") => {
   return `This Saturday, I want to ${input}!`;
 };
 
-const mondayWork = function (input = "go to the office") {
+const mondayWork = (input = "go to the office") => {
   return `This Monday, I will ${input}.`;
 };
 
